@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>PyMapWAR</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <error-page>
+    <error-code>404</error-code>
+    <location>/error.jsp</location>
+  </error-page>
+  
+  <servlet>
+    <servlet-name>Registrarse</servlet-name>
+    <jsp-file>/views/models/usuario/registrarse.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Registrarse</servlet-name>
+    <url-pattern>/usuario/registrarse</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>IniciarSesion</servlet-name>
+    <jsp-file>/views/models/usuario/iniciar_sesion.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>IniciarSesion</servlet-name>
+    <url-pattern>/usuario/iniciar-sesion</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>EditarPerfil</servlet-name>
+    <jsp-file>/views/models/usuario/editar_perfil.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>EditarPerfil</servlet-name>
+    <url-pattern>/usuario/editar-perfil</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>PublicarPasoUno</servlet-name>
+    <jsp-file>/views/models/negocio/publicar_paso_1.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PublicarPasoUno</servlet-name>
+    <url-pattern>/negocio/publicar-paso-1</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>PublicarPasoDos</servlet-name>
+    <jsp-file>/views/models/negocio/publicar_paso_2.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PublicarPasoDos</servlet-name>
+    <url-pattern>/negocio/publicar-paso-2</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>PublicarPasoTres</servlet-name>
+    <jsp-file>/views/models/negocio/publicar_paso_3.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PublicarPasoTres</servlet-name>
+    <url-pattern>/negocio/publicar-paso-3</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>MisNegocios</servlet-name>
+    <jsp-file>/views/models/negocio/mis_negocios.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MisNegocios</servlet-name>
+    <url-pattern>/negocio/mis-negocios</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>VerNegocios</servlet-name>
+    <jsp-file>/views/models/negocio/ver_negocios.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>VerNegocios</servlet-name>
+    <url-pattern>/negocio/ver-negocios</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>AdministrarNegocio</servlet-name>
+    <jsp-file>/views/models/negocio/administrar.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AdministrarNegocio</servlet-name>
+    <url-pattern>/negocio/administrar</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>DetalleNegocio</servlet-name>
+    <jsp-file>/views/models/negocio/detalle.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DetalleNegocio</servlet-name>
+    <url-pattern>/negocio/detalle</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>AgregarMarca</servlet-name>
+    <jsp-file>/views/models/marca/agregar.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AgregarMarca</servlet-name>
+    <url-pattern>/marca/agregar</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>AgregarProducto</servlet-name>
+    <jsp-file>/views/models/producto/agregar.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AgregarProducto</servlet-name>
+    <url-pattern>/producto/agregar</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>MostrarCarrito</servlet-name>
+    <jsp-file>/views/controllers/carrito/mostrar.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MostrarCarrito</servlet-name>
+    <url-pattern>/carrito/mostrar</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>MisCarritos</servlet-name>
+    <jsp-file>/views/controllers/carrito/mis_carritos.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MisCarritos</servlet-name>
+    <url-pattern>/carrito/mis-carritos</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>CompraRealizada</servlet-name>
+    <jsp-file>/views/models/compra/realizada.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CompraRealizada</servlet-name>
+    <url-pattern>/compra/realizada</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <servlet-name>MisCompras</servlet-name>
+    <jsp-file>/views/models/compra/mis_compras.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MisCompras</servlet-name>
+    <url-pattern>/compra/mis-compras</url-pattern>
+  </servlet-mapping>
+  
+</web-app>

@@ -1,0 +1,14 @@
+Pool Name: pool_dbpymap
+Resource Type: javax.sql.DataSource
+Database Driver Vendor: MySql8
+
+Propiedades del Pool de Conexiones:
+
+Name: URL              Value: jdbc:mysql://localhost:3306/dbpymap
+Name: ServerName       Value: localhost
+Name: DriverClass      Value: com.mysql.cj.jdbc.driver
+Name: Password         Value: root
+Name: User             Value: root
+Name: PortNumber       Value: 3306
+
+JNDI Name: jndi_dbpymap
