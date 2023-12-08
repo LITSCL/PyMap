@@ -1,12 +1,12 @@
 <%@page import="java.util.ArrayList"%>
 <%@page import="cl.pymap.pymapejb.model.TipoNegocio"%>
 <%@page import="java.util.List"%>
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
+<meta charset="UTF-8">
 <title>Insert title here</title>
 <%@ include file='../../includes/head_styles.jsp' %>
 <%@ include file='../../includes/head_scripts.jsp' %>
@@ -62,27 +62,27 @@ if (session.getAttribute("renderizarVista") == "publicarPasoUno") {
 							<input type="text" class="form-control" name="calle" required/>
 						</div>
 						<div class="form-group">
-						    <label for="diasAtencion">Dias de atención</label>
+						    <label for="diasAtencion">Dias de atenciÃ³n</label>
 						    <select class="form-control" name="diasAtencion" multiple>
 						    	<option>Lunes</option>
 						      	<option>Martes</option>
-						      	<option>Miércoles</option>
+						      	<option>MiÃ©rcoles</option>
 						      	<option>Jueves</option>
 						      	<option>Viernes</option>
-						      	<option>Sábado</option>
+						      	<option>SÃ¡bado</option>
 						      	<option>Domingo</option>
 						    </select>
 						</div>
 						<div class="form-group">
-						    <label for="metodosPago">Métodos de pago</label>
+						    <label for="metodosPago">MÃ©todos de pago</label>
 							<div class="form-group">
 								<div class="form-check form-check-inline">
-									<input class="form-check-input" type="checkbox" id="1" name="metodosPago" value="Débito" style="cursor: pointer">
-									<label class="form-check-label" for="1" style="cursor: pointer">Débito</label>
+									<input class="form-check-input" type="checkbox" id="1" name="metodosPago" value="DÃ©bito" style="cursor: pointer">
+									<label class="form-check-label" for="1" style="cursor: pointer">DÃ©bito</label>
 								</div>
 								<div class="form-check form-check-inline">
-								  	<input class="form-check-input" type="checkbox" id="2" name="metodosPago" value="Crédito" style="cursor: pointer">
-								  	<label class="form-check-label" for="2" style="cursor: pointer">Crédito</label>
+								  	<input class="form-check-input" type="checkbox" id="2" name="metodosPago" value="CrÃ©dito" style="cursor: pointer">
+								  	<label class="form-check-label" for="2" style="cursor: pointer">CrÃ©dito</label>
 								</div>
 								<div class="form-check form-check-inline">
 								  	<input class="form-check-input" type="checkbox" id="3" name="metodosPago" value="Transferencia" style="cursor: pointer">

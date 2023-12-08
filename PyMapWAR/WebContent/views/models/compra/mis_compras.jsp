@@ -2,12 +2,12 @@
 <%@page import="cl.pymap.pymapejb.model.Producto"%>
 <%@page import="java.text.DecimalFormat"%>
 <%@page import="java.util.List"%>
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
+<meta charset="UTF-8">
 <title>Insert title here</title>
 <%@ include file='../../includes/head_styles.jsp' %>
 <%@ include file='../../includes/head_scripts.jsp' %>
@@ -29,7 +29,7 @@ if (session.getAttribute("renderizarVista") == "misCompras") {
 			<table class="table table-bordered">
 				<thead class='thead-light'>
 					<tr>
-						<th>N° Compra</th>
+						<th>NÂ° Compra</th>
 						<th>Coste</th>
 						<th>Fecha</th>
 						<th>Negocio</th>

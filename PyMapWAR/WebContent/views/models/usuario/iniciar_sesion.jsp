@@ -1,9 +1,9 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
+<meta charset="UTF-8">
 <title>Insert title here</title>
 <%@ include file='../../includes/head_styles.jsp' %>
 <%@ include file='../../includes/head_scripts.jsp' %>
@@ -31,7 +31,7 @@ if (session.getAttribute("renderizarVista") == "iniciarSesion") {
 						<div class="container-fluid h-100">
 		    				<div class="row w-100 m-0 p-0 align-items-center">
 			    				<div class="col text-center">
-			    					<h3>Iniciar Sesión</h3>
+			    					<h3>Iniciar SesiÃ³n</h3>
 			    				</div>
 		    				</div>
 		    			</div>
@@ -42,7 +42,7 @@ if (session.getAttribute("renderizarVista") == "iniciarSesion") {
 							<input type="email" class="form-control" name="correo" required/>
 						</div>
 						<div class="form-group">
-							<label for="clave">Contraseña</label>
+							<label for="clave">ContraseÃ±a</label>
 							<input type="password" class="form-control" name="clave" required/>
 						</div>
 		    		</div>
@@ -50,7 +50,7 @@ if (session.getAttribute("renderizarVista") == "iniciarSesion") {
 		    			<div class="container-fluid h-100">
 		    				<div class="row w-100 m-0 p-0 align-items-center">
 			    				<div class="col text-center">
-			    					<button class="btn btn-primary" type="submit" name="opcion" value="2">Iniciar Sesión</button>
+			    					<button class="btn btn-primary" type="submit" name="opcion" value="2">Iniciar SesiÃ³n</button>
 			    				</div>
 		    				</div>
 		    			</div>

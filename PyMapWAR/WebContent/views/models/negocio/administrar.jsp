@@ -1,10 +1,10 @@
 <%@page import="cl.pymap.pymapejb.model.Negocio"%>
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
+<meta charset="UTF-8">
 <title>Insert title here</title>
 <%@ include file='../../includes/head_styles.jsp' %>
 <%@ include file='../../includes/head_scripts.jsp' %>
@@ -29,7 +29,7 @@ if (session.getAttribute("renderizarVista") == "administrar") {
 				<div class="container-fluid h-100">
     				<div class="row w-100 m-0 p-0 align-items-center">
 	    				<div class="col text-center">
-							<h3><a class="text-warning" href="<%=request.getContextPath()%>/Negocio?vista=administrar&negocio=<%=negocio%>&seleccion=1">INFORMACIÓN</a></h3>
+							<h3><a class="text-warning" href="<%=request.getContextPath()%>/Negocio?vista=administrar&negocio=<%=negocio%>&seleccion=1">INFORMACIÃ“N</a></h3>
 	    				</div>
     				</div>
     			</div>
@@ -66,7 +66,7 @@ if (session.getAttribute("renderizarVista") == "administrar") {
 						<div class="container-fluid h-100">
 		    				<div class="row w-100 m-0 p-0 align-items-center">
 			    				<div class="col text-center">
-			    					<h3>Modificar Información</h3>
+			    					<h3>Modificar InformaciÃ³n</h3>
 			    				</div>
 		    				</div>
 		    			</div>
@@ -101,7 +101,7 @@ if (session.getAttribute("renderizarVista") == "administrar") {
 							else if (diasAtencionSeparados[i].equals("Martes")) {
 								martes = true;
 							}
-							else if (diasAtencionSeparados[i].equals("Miércoles")) {
+							else if (diasAtencionSeparados[i].equals("MiÃ©rcoles")) {
 								miercoles = true;
 							}
 							else if (diasAtencionSeparados[i].equals("Jueves")) {
@@ -110,7 +110,7 @@ if (session.getAttribute("renderizarVista") == "administrar") {
 							else if (diasAtencionSeparados[i].equals("Viernes")) {
 								viernes = true;
 							}
-							else if (diasAtencionSeparados[i].equals("Sábado")) {
+							else if (diasAtencionSeparados[i].equals("SÃ¡bado")) {
 								sabado = true;
 							}
 							else if (diasAtencionSeparados[i].equals("Domingo")) {
@@ -122,14 +122,14 @@ if (session.getAttribute("renderizarVista") == "administrar") {
 						}
 						%>
 						<div class="form-group">
-						    <label for="diasAtencion">Dias de atención</label>
+						    <label for="diasAtencion">Dias de atenciÃ³n</label>
 						    <select class="form-control" name="diasAtencion" multiple>
 						    	<option <% if (lunes == true) { out.print("selected"); } %>>Lunes</option>
 						      	<option <% if (martes == true) { out.print("selected"); } %>>Martes</option>
-						      	<option <% if (miercoles == true) { out.print("selected"); } %>>Miércoles</option>
+						      	<option <% if (miercoles == true) { out.print("selected"); } %>>MiÃ©rcoles</option>
 						      	<option <% if (jueves == true) { out.print("selected"); } %>>Jueves</option>
 						      	<option <% if (viernes == true) { out.print("selected"); } %>>Viernes</option>
-						      	<option <% if (sabado == true) { out.print("selected"); } %>>Sábado</option>
+						      	<option <% if (sabado == true) { out.print("selected"); } %>>SÃ¡bado</option>
 						      	<option <% if (domingo == true) { out.print("selected"); } %>>Domingo</option>
 						    </select>
 						</div>
@@ -137,10 +137,10 @@ if (session.getAttribute("renderizarVista") == "administrar") {
 						String[] metodosPagoSeparados = n.getMetodosPago().split(";");
 						boolean debito = false, credito = false, transferencia = false, efectivo = false;
 						for (int i = 0; i < metodosPagoSeparados.length; i++) {
-							if (metodosPagoSeparados[i].equals("Débito")) {
+							if (metodosPagoSeparados[i].equals("DÃ©bito")) {
 								debito = true;
 							}
-							else if (metodosPagoSeparados[i].equals("Crédito")) {
+							else if (metodosPagoSeparados[i].equals("CrÃ©dito")) {
 								credito = true;
 							}
 							else if (metodosPagoSeparados[i].equals("Transferencia")) {
@@ -155,15 +155,15 @@ if (session.getAttribute("renderizarVista") == "administrar") {
 						}
 						%>
 						<div class="form-group">
-						    <label for="metodosPago">Métodos de pago</label>
+						    <label for="metodosPago">MÃ©todos de pago</label>
 							<div class="form-group">
 								<div class="form-check form-check-inline">
-									<input class="form-check-input" type="checkbox" id="1" name="metodosPago" value="Débito" <% if (debito == true) { out.print("checked"); } %> style="cursor: pointer">
-									<label class="form-check-label" for="1" style="cursor: pointer">Débito</label>
+									<input class="form-check-input" type="checkbox" id="1" name="metodosPago" value="DÃ©bito" <% if (debito == true) { out.print("checked"); } %> style="cursor: pointer">
+									<label class="form-check-label" for="1" style="cursor: pointer">DÃ©bito</label>
 								</div>
 								<div class="form-check form-check-inline">
-								  	<input class="form-check-input" type="checkbox" id="2" name="metodosPago" value="Crédito" <% if (credito == true) { out.print("checked"); } %> style="cursor: pointer">
-								  	<label class="form-check-label" for="2" style="cursor: pointer">Crédito</label>
+								  	<input class="form-check-input" type="checkbox" id="2" name="metodosPago" value="CrÃ©dito" <% if (credito == true) { out.print("checked"); } %> style="cursor: pointer">
+								  	<label class="form-check-label" for="2" style="cursor: pointer">CrÃ©dito</label>
 								</div>
 								<div class="form-check form-check-inline">
 								  	<input class="form-check-input" type="checkbox" id="3" name="metodosPago" value="Transferencia" <% if (transferencia == true) { out.print("checked"); } %> style="cursor: pointer">
@@ -202,7 +202,7 @@ if (session.getAttribute("renderizarVista") == "administrar") {
 				<div class="container-fluid h-100">
     				<div class="row w-100 m-0 p-0 align-items-center">
 	    				<div class="col text-center">
-							<h3><a class="text-dark" href="<%=request.getContextPath()%>/Negocio?vista=administrar&negocio=<%=negocio%>&seleccion=1">INFORMACIÓN</a></h3>
+							<h3><a class="text-dark" href="<%=request.getContextPath()%>/Negocio?vista=administrar&negocio=<%=negocio%>&seleccion=1">INFORMACIÃ“N</a></h3>
 	    				</div>
     				</div>
     			</div>
@@ -223,7 +223,7 @@ if (session.getAttribute("renderizarVista") == "administrar") {
 			<%
 			if (session.getAttribute("registros") == "Pagina Inexistente") {
 			%>
-				<div class="alert col-8 m-2 alert-warning">No se han encontrado resultados en esta página</div>
+				<div class="alert col-8 m-2 alert-warning">No se han encontrado resultados en esta pÃ¡gina</div>
 			<%
 			}
 			else if (session.getAttribute("registros") == "Sin Registros") {

@@ -1,9 +1,9 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
+<meta charset="UTF-8">
 <title>Insert title here</title>
 <%@ include file='../../includes/head_styles.jsp' %>
 <%@ include file='../../includes/head_scripts.jsp' %>
@@ -47,7 +47,7 @@ if (session.getAttribute("renderizarVista") == "registrarse") {
 							<input type="email" class="form-control" name="correo" required/>
 						</div>
 						<div class="form-group">
-							<label for="clave">Contraseña</label>
+							<label for="clave">ContraseÃ±a</label>
 							<input type="password" class="form-control" name="clave" required/>
 						</div>
 						<div class="form-group">

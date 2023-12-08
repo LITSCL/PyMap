@@ -1,12 +1,12 @@
 <%@page import="cl.pymap.pymapejb.model.TipoProducto"%>
 <%@page import="cl.pymap.pymapejb.model.Marca"%>
 <%@page import="java.util.List"%>
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
+<meta charset="UTF-8">
 <title>Insert title here</title>
 <%@ include file='../../includes/head_styles.jsp' %>
 <%@ include file='../../includes/head_scripts.jsp' %>
@@ -52,7 +52,7 @@ if (session.getAttribute("renderizarVista") == "agregarProducto") {
 							<input type="text" class="form-control" name="nombre" required/>
 						</div>
 					    <div class="form-group">
-							<label for="descripcion">Descripción</label>
+							<label for="descripcion">DescripciÃ³n</label>
 						    <textarea class="form-control" rows="3" name="descripcion"></textarea>
 						</div>
 						<div class="form-group">

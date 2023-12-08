@@ -1,9 +1,9 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
+<meta charset="UTF-8">
 <title>Insert title here</title>
 <%@ include file='../../includes/head_styles.jsp' %>
 <%@ include file='../../includes/head_scripts.jsp' %>
@@ -21,12 +21,12 @@ if (session.getAttribute("renderizarVista") == "misNegocios") {
 		<%
 		if (session.getAttribute("registros") == "Pagina Inexistente") {
 		%>
-			<div class="alert col-8 m-2 alert-warning">No se han encontrado resultados en esta página</div>
+			<div class="alert col-8 m-2 alert-warning">No se han encontrado resultados en esta pÃ¡gina</div>
 		<%
 		}
 		else if (session.getAttribute("registros") == "Sin Registros") {
 		%>
-			<div class="alert col-8 m-2 alert-warning">Todavía no has publicado ningún negocio</div>
+			<div class="alert col-8 m-2 alert-warning">TodavÃ­a no has publicado ningÃºn negocio</div>
 		<%
 		}
 		else {

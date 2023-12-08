@@ -2,12 +2,12 @@
 <%@page import="cl.pymap.pymapejb.model.Producto"%>
 <%@page import="java.util.List"%>
 <%@page import="java.text.DecimalFormat"%>
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
+<meta charset="UTF-8">
 <title>Insert title here</title>
 <%@ include file='../../includes/head_styles.jsp' %>
 <%@ include file='../../includes/head_scripts.jsp' %>
@@ -42,7 +42,7 @@ if (session.getAttribute("renderizarVista") == "mostrar") {
 						<th>Nombre</th>
 						<th>Precio</th>
 						<th>Unidades</th>
-						<th>Acción</th>
+						<th>AcciÃ³n</th>
 					</tr>
 				</thead>
 			<%
@@ -105,7 +105,7 @@ if (session.getAttribute("renderizarVista") == "mostrar") {
 		}
 		else {
 		%>
-			<h1 class="m-5">El carrito esta vacío</h1>
+			<h1 class="m-5">El carrito esta vacÃ­o</h1>
 		<% 
 		}
 		%>
