@@ -17,7 +17,7 @@ if (session.getAttribute("usuario") == null) {
 	    	</ul>
 	    	<ul class="navbar-nav row w-50 justify-content-right">
 	      		<li class="nav-item col text-right">
-	        		<a class="nav-link <% if (session.getAttribute("renderizarVista") == "iniciarSesion") { out.print("active"); } %>" href="<%=request.getContextPath()%>/usuario/iniciar-sesion">Iniciar Sesión</a>
+	        		<a class="nav-link <% if (session.getAttribute("renderizarVista") == "iniciarSesion") { out.print("active"); } %>" href="<%=request.getContextPath()%>/usuario/iniciar-sesion">Iniciar SesiÃ³n</a>
 	      		</li>
 	      		<li class="nav-item col text-left">
 	        		<a class="nav-link <% if (session.getAttribute("renderizarVista") == "registrarse") { out.print("active"); } %>" href="<%=request.getContextPath()%>/usuario/registrarse">Registrarse</a>
@@ -61,7 +61,7 @@ if (session.getAttribute("usuario") != null && ((Usuario)session.getAttribute("u
 		        		<a class="nav-link" href="<%=request.getContextPath()%>/usuario/editar-perfil"><img src="<%=request.getContextPath()%>/uploads/models/usuario/images/<%=((Usuario)session.getAttribute("usuario")).getImagen()%>" style="width: 50px; border-radius: 999px"/></a>
 		     		</li>
 		     		<li class="nav-item" style="margin-top: 12px">
-		        		<a class="nav-link" href="<%=request.getContextPath()%>/Usuario?opcion=1">Cerrar Sesión</a>
+		        		<a class="nav-link" href="<%=request.getContextPath()%>/Usuario?opcion=1">Cerrar SesiÃ³n</a>
 		      		</li>
 		    	</ul>
 		    </div>
@@ -94,7 +94,7 @@ if (session.getAttribute("usuario") != null && ((Usuario)session.getAttribute("u
 		        		<a class="nav-link" href="<%=request.getContextPath()%>/usuario/editar-perfil"><img src="<%=request.getContextPath()%>/uploads/models/usuario/images/<%=((Usuario)session.getAttribute("usuario")).getImagen()%>" style="width: 50px; border-radius: 999px"/></a>
 		     		</li>
 		      		<li class="nav-item" style="margin-top: 12px">
-		        		<a class="nav-link" href="<%=request.getContextPath()%>/Usuario?opcion=1">Cerrar Sesión</a>
+		        		<a class="nav-link" href="<%=request.getContextPath()%>/Usuario?opcion=1">Cerrar SesiÃ³n</a>
 		      		</li>
 		    	</ul>
 	    	</div>

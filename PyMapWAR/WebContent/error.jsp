@@ -1,1 +1,1 @@
-<h1>La p·gina que buscas no existe</h1>
+<h1>La p√°gina que buscas no existe</h1>
