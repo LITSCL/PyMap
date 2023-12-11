@@ -143,5 +143,4 @@ public class CategoriaDAO implements CategoriaDAOLocal {
 			return null;
 		}
 	}
-
 }

@@ -191,5 +191,4 @@ public class TipoProductoDAO implements TipoProductoDAOLocal {
 			return null;
 		}
 	}
-	
 }

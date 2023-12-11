@@ -144,5 +144,4 @@ public class MarcaDAO implements MarcaDAOLocal {
 			return null;
 		}
 	}
-
 }

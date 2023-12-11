@@ -196,5 +196,4 @@ public class ProductoNegocioDAO implements ProductoNegocioDAOLocal {
 			return null;
 		}
 	}
-
 }

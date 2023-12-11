@@ -37,42 +37,55 @@ public class Compra implements Serializable {
 	public int getId() {
 		return id;
 	}
+
 	public void setId(int id) {
 		this.id = id;
 	}
+
 	public double getCoste() {
 		return coste;
 	}
+
 	public void setCoste(double coste) {
 		this.coste = coste;
 	}
+
 	public String getEstado() {
 		return estado;
 	}
+
 	public void setEstado(String estado) {
 		this.estado = estado;
 	}
+
 	public String getFecha() {
 		return fecha;
 	}
+
 	public void setFecha(String fecha) {
 		this.fecha = fecha;
 	}
+
 	public String getHora() {
 		return hora;
 	}
+
 	public void setHora(String hora) {
 		this.hora = hora;
 	}
+
 	public String getUsuarioFK() {
 		return usuarioFK;
 	}
+
 	public void setUsuarioFK(String usuarioFK) {
 		this.usuarioFK = usuarioFK;
 	}
+
 	public String getNegocioFK() {
 		return negocioFK;
 	}
+	
 	public void setNegocioFK(String negocioFK) {
 		this.negocioFK = negocioFK;
 	}

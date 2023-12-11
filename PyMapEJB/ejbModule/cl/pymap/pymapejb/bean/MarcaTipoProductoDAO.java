@@ -195,5 +195,4 @@ public class MarcaTipoProductoDAO implements MarcaTipoProductoDAOLocal {
 			return null;
 		}
 	}
-
 }

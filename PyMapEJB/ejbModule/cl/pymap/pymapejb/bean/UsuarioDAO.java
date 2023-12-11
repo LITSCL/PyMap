@@ -148,5 +148,4 @@ public class UsuarioDAO implements UsuarioDAOLocal {
 			return null;
 		}
 	}
-
 }

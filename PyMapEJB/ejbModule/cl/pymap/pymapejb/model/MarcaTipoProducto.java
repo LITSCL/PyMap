@@ -33,18 +33,23 @@ public class MarcaTipoProducto implements Serializable {
 	public int getId() {
 		return id;
 	}
+
 	public void setId(int id) {
 		this.id = id;
 	}
+
 	public int getMarcaFK() {
 		return marcaFK;
 	}
+
 	public void setMarcaFK(int marcaFK) {
 		this.marcaFK = marcaFK;
 	}
+
 	public int getTipoProductoFK() {
 		return tipoProductoFK;
 	}
+	
 	public void setTipoProductoFK(int tipoProductoFK) {
 		this.tipoProductoFK = tipoProductoFK;
 	}

@@ -31,24 +31,31 @@ public class ProductoCompra implements Serializable {
 	public int getId() {
 		return id;
 	}
+
 	public void setId(int id) {
 		this.id = id;
 	}
+	
 	public int getCompraFK() {
 		return compraFK;
 	}
+
 	public void setCompraFK(int compraFK) {
 		this.compraFK = compraFK;
 	}
+
 	public int getProductoFK() {
 		return productoFK;
 	}
+	
 	public void setProductoFK(int productoFK) {
 		this.productoFK = productoFK;
 	}
+
 	public int getUnidades() {
 		return unidades;
 	}
+	
 	public void setUnidades(int unidades) {
 		this.unidades = unidades;
 	}

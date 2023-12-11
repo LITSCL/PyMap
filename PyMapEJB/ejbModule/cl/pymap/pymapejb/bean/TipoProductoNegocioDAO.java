@@ -195,5 +195,4 @@ public class TipoProductoNegocioDAO implements TipoProductoNegocioDAOLocal {
 			return null;
 		}
 	}
-
 }

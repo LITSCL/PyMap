@@ -204,5 +204,4 @@ public class ProductoDAO implements ProductoDAOLocal {
 			return null;
 		}
 	}
-	
 }

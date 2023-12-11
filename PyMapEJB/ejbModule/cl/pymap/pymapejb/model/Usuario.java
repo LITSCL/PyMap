@@ -38,48 +38,63 @@ public class Usuario implements Serializable {
 	public String getCorreo() {
 		return correo;
 	}
+
 	public void setCorreo(String correo) {
 		this.correo = correo;
 	}
+
 	public String getClave() {
 		return clave;
 	}
+
 	public void setClave(String clave) {
 		this.clave = clave;
 	}
+
 	public String getTipo() {
 		return tipo;
 	}
+
 	public void setTipo(String tipo) {
 		this.tipo = tipo;
 	}
+
 	public String getPrimerNombre() {
 		return primerNombre;
 	}
+
 	public void setPrimerNombre(String primerNombre) {
 		this.primerNombre = primerNombre;
 	}
+
 	public String getSegundoNombre() {
 		return segundoNombre;
 	}
+
 	public void setSegundoNombre(String segundoNombre) {
 		this.segundoNombre = segundoNombre;
 	}
+
 	public String getApellidoPaterno() {
 		return apellidoPaterno;
 	}
+
 	public void setApellidoPaterno(String apellidoPaterno) {
 		this.apellidoPaterno = apellidoPaterno;
 	}
+
 	public String getApellidoMaterno() {
 		return apellidoMaterno;
 	}
+
 	public void setApellidoMaterno(String apellidoMaterno) {
 		this.apellidoMaterno = apellidoMaterno;
 	}
+
 	public String getImagen() {
 		return imagen;
 	}
+	
 	public void setImagen(String imagen) {
 		this.imagen = imagen;
 	}

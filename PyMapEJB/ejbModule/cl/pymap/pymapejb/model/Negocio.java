@@ -44,66 +44,87 @@ public class Negocio implements Serializable {
 	public String getRut() {
 		return rut;
 	}
+
 	public void setRut(String rut) {
 		this.rut = rut;
 	}
+
 	public String getNombre() {
 		return nombre;
 	}
+
 	public void setNombre(String nombre) {
 		this.nombre = nombre;
 	}
+
 	public String getCiudad() {
 		return ciudad;
 	}
+
 	public void setCiudad(String ciudad) {
 		this.ciudad = ciudad;
 	}
+
 	public String getComuna() {
 		return comuna;
 	}
+
 	public void setComuna(String comuna) {
 		this.comuna = comuna;
 	}
+
 	public String getCalle() {
 		return calle;
 	}
+
 	public void setCalle(String calle) {
 		this.calle = calle;
 	}
+
 	public String getDiasAtencion() {
 		return diasAtencion;
 	}
+
 	public void setDiasAtencion(String diasAtencion) {
 		this.diasAtencion = diasAtencion;
 	}
+
 	public String getMetodosPago() {
 		return metodosPago;
 	}
+
 	public void setMetodosPago(String metodosPago) {
 		this.metodosPago = metodosPago;
 	}
+
 	public String getEstado() {
 		return estado;
 	}
+
 	public void setEstado(String estado) {
 		this.estado = estado;
 	}
+
 	public String getLogo() {
 		return logo;
 	}
+
 	public void setLogo(String logo) {
 		this.logo = logo;
 	}
+
 	public int getTipoNegocioFK() {
 		return tipoNegocioFK;
 	}
+
 	public void setTipoNegocioFK(int tipoNegocioFK) {
 		this.tipoNegocioFK = tipoNegocioFK;
 	}
+
 	public String getUsuarioFK() {
 		return usuarioFK;
 	}
+	
 	public void setUsuarioFK(String usuarioFK) {
 		this.usuarioFK = usuarioFK;
 	}

@@ -202,5 +202,4 @@ public class NegocioDAO implements NegocioDAOLocal {
 			return null;
 		}
 	}
-	
 }

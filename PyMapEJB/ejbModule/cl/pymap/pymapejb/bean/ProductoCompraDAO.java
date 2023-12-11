@@ -206,5 +206,4 @@ public class ProductoCompraDAO implements ProductoCompraDAOLocal {
 			return null;
 		}
 	}
-
 }

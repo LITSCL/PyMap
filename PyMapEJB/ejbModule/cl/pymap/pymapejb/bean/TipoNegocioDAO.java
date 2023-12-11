@@ -143,5 +143,4 @@ public class TipoNegocioDAO implements TipoNegocioDAOLocal {
 			return null;
 		}
 	}
-
 }

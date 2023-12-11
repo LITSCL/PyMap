@@ -33,18 +33,23 @@ public class MarcaNegocio implements Serializable {
 	public int getId() {
 		return id;
 	}
+
 	public void setId(int id) {
 		this.id = id;
 	}
+
 	public int getMarcaFK() {
 		return marcaFK;
 	}
+
 	public void setMarcaFK(int marcaFK) {
 		this.marcaFK = marcaFK;
 	}
+
 	public String getNegocioFK() {
 		return negocioFK;
 	}
+	
 	public void setNegocioFK(String negocioFK) {
 		this.negocioFK = negocioFK;
 	}

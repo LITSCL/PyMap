@@ -33,18 +33,23 @@ public class TipoProductoNegocio implements Serializable {
 	public int getId() {
 		return id;
 	}
+
 	public void setId(int id) {
 		this.id = id;
 	}
+
 	public int getTipoProductoFK() {
 		return tipoProductoFK;
 	}
+
 	public void setTipoProductoFK(int tipoProductoFK) {
 		this.tipoProductoFK = tipoProductoFK;
 	}
+
 	public String getNegocioFK() {
 		return negocioFK;
 	}
+	
 	public void setNegocioFK(String negocioFK) {
 		this.negocioFK = negocioFK;
 	}

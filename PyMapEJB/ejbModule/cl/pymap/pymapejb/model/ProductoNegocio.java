@@ -31,24 +31,31 @@ public class ProductoNegocio implements Serializable {
 	public int getId() {
 		return id;
 	}
+
 	public void setId(int id) {
 		this.id = id;
 	}
+
 	public double getPrecio() {
 		return precio;
 	}
+
 	public void setPrecio(double precio) {
 		this.precio = precio;
 	}
+
 	public int getProductoFK() {
 		return productoFK;
 	}
+
 	public void setProductoFK(int productoFK) {
 		this.productoFK = productoFK;
 	}
+
 	public String getNegocioFK() {
 		return negocioFK;
 	}
+	
 	public void setNegocioFK(String negocioFK) {
 		this.negocioFK = negocioFK;
 	}

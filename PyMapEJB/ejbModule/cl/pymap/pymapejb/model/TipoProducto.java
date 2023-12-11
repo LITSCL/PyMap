@@ -29,18 +29,23 @@ public class TipoProducto implements Serializable {
 	public int getId() {
 		return id;
 	}
+
 	public void setId(int id) {
 		this.id = id;
 	}
+
 	public String getNombre() {
 		return nombre;
 	}
+
 	public void setNombre(String nombre) {
 		this.nombre = nombre;
 	}
+
 	public int getCategoriaFK() {
 		return categoriaFK;
 	}
+	
 	public void setCategoriaFK(int categoriaFK) {
 		this.categoriaFK = categoriaFK;
 	}
